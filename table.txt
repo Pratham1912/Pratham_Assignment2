@@ -1,0 +1,13 @@
+CREATE TABLE clothes (
+    ClothingID INT AUTO_INCREMENT PRIMARY KEY,
+    ClothingName VARCHAR(255) NOT NULL,
+    Description VARCHAR(255) NOT NULL,         
+    Quantity VARCHAR(50) NOT NULL,                  
+    Price VARCHAR(50) NOT NULL,                     
+    Brand VARCHAR(100),                             
+    Material VARCHAR(100),                      
+    Size VARCHAR(50) NOT NULL,
+    Color VARCHAR(50) NOT NULL,                 
+    ProductAddedBy VARCHAR(100) NOT NULL        
+);
+CREATE TABLE admin ( id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(255) NOT NULL UNIQUE, password VARCHAR(255) NOT NULL );
